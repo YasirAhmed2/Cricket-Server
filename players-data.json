@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Babar Azam",
+    "role": "Batsman",
+    "team": "Pakistan",
+    "runs": 5400,
+    "wickets": 0
+  },
+  {
+    "id": 2,
+    "name": "Shaheen Afridi",
+    "role": "Bowler",
+    "team": "Pakistan",
+    "runs": 450,
+    "wickets": 220
+  },
+  {
+    "id": 3,
+    "name": "Mohammad Rizwan",
+    "role": "Batsman",
+    "team": "Pakistan",
+    "runs": 3000,
+    "wickets": 0
+  },
+  {
+    "id": 4,
+    "name": "Fakhar Zaman",
+    "role": "Batsman",
+    "team": "Pakistan",
+    "runs": 2500,
+    "wickets": 5
+  },
+  {
+    "id": 5,
+    "name": "Haris Rauf",
+    "role": "Bowler",
+    "team": "Pakistan",
+    "runs": 150,
+    "wickets": 120
+  },
+  {
+    "id": 6,
+    "name": "Shadab Khan",
+    "role": "Allrounder",
+    "team": "Pakistan",
+    "runs": 800,
+    "wickets": 90
+  },
+  {
+    "id": 7,
+    "name": "Imad Wasim",
+    "role": "Allrounder",
+    "team": "Pakistan",
+    "runs": 600,
+    "wickets": 70
+  },
+  {
+    "id": 8,
+    "name": "Naseem Shah",
+    "role": "Bowler",
+    "team": "Pakistan",
+    "runs": 100,
+    "wickets": 60
+  },
+  {
+    "id": 9,
+    "name": "Mohammad Hafeez",
+    "role": "Allrounder",
+    "team": "Pakistan",
+    "runs": 4000,
+    "wickets": 50
+  },
+  {
+    "id": 10,
+    "name": "Shoaib Malik",
+    "role": "Allrounder",
+    "team": "Pakistan",
+    "runs": 4500,
+    "wickets": 40
+  },
+  {
+    "id": 11,
+    "name": "Malik",
+    "role": "Allrounder",
+    "team": "Pakistan",
+    "runs": 4500,
+    "wickets": 40
+  }
+]
