@@ -34,11 +34,8 @@ This project demonstrates practical backend development concepts like **modular 
 ├── 📂 src/                      
 │   └── 📜 index.js
 │   └── 📜 players.js
-
-│
 ├── 📜 package.json             
-├── 📜 players-data.json 
-│           
+├── 📜 players-data.json          
 ├── 📜 README.md         # Project documentation
 
 ```
@@ -140,17 +137,19 @@ Request Body
 DELETE http://localhost:3000/player/11
 ```
 
-💾 Data Persistence
+---
+
+## 💾 Data Persistence 
 
 Before shutdown (CTRL + C or a system signal), the server automatically saves all player data to a file:
 
 Saving data to file before shutdown...
 Server closed.
 
-
 This ensures that no data is lost between restarts and maintains persistence without a database.
 
-🧠 Learning Concepts Demonstrated
+
+## 🧠 Learning Concepts Demonstrated
 
 Express.js routing & middleware
 
@@ -162,21 +161,18 @@ Clean project structure & modular exports
 
 Graceful server shutdown using process signals (SIGINT, SIGTERM)
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 
 Yasir Ahmed
 AI/ML & Data Science Enthusiast | Backend Developer
 🏆 Winner – ZAB AI CUP 2024
 🎓 BSCS Student – University of Haripur (Govt. Akhtar Nawaz Khan Degree College KTS)
 
-🔗 GitHub
- • LinkedIn
-
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License — feel free to use and modify it for learning or production.
 
-💬 ###Note###
+## 💬 Note
 
 This is a basic yet scalable Express.js backend built for educational and demonstration purposes.
 It can be extended with the following enhancements:
