@@ -1,4 +1,4 @@
-It presents your work as a clean, production-ready backend API — great for your GitHub portfolio or university project showcase.
+
 
 # 🏏 Cricket Players Server
 
@@ -29,12 +29,19 @@ This project demonstrates practical backend development concepts like **modular 
 
 ## 📁 Folder Structure
 
+```
+📦 Cricket Server
+├── 📂 src/                      
+│   └── 📜 index.js
+│   └── 📜 players.js
 
-Cricket-Server/
 │
-├── players.js # Handles data operations and logic for players
-├── server.js # Main Express server and route definitions
-└── players.json # (Optional) Local file for storing player data
+├── 📜 package.json             
+├── 📜 players-data.json 
+│           
+├── 📜 README.md         # Project documentation
+
+```
 
 
 ---
@@ -48,41 +55,53 @@ Cricket-Server/
 
 
 Install dependencies
-
-npm install
-
+    ```bash
+    npm install
 
 Start the server
-
-npm start
+    ```bash
+    npm run dev
 
 
 By default, the server runs at:
 👉 http://localhost:3000
 
-🔗 API Endpoints
-🏠 Base Route
-Method	Endpoint	Description
-GET	/	Returns a welcome/start message
-👥 Player Routes
-Method	Endpoint	Description
-GET	/players	Get all players
-GET	/player/:id	Get player details by ID
-GET	/player/team/:team	Get all players from a specific team
-GET	/player/name/:name	Search player by name
-POST	/players	Add a new player
-PUT	/player/:id	Update an existing player
-DELETE	/player/:id	Delete a player
-⚡ Performance & Category Routes
-Method	Endpoint	Description
-GET	/players/batsmen	Get all batsmen
-GET	/players/bowlers	Get all bowlers
-GET	/players/allrounders	Get all all-rounders
-GET	/players/top-scorers	Get top run scorers
-GET	/players/top-wickets	Get top wicket takers
-GET	/players/high-scorers	Get players with highest individual scores
-GET	/players/high-wickets	Get players with highest wicket counts
-GET	/players/summary	Get summary statistics for all players
+
+## 🔗 API Endpoints
+
+### 🏠 Base Route
+| Method | Endpoint | Description |
+|--------|-----------|-------------|
+| **GET** | `/` | Returns a welcome/start message |
+
+---
+
+### 👥 Player Routes
+| Method | Endpoint | Description |
+|--------|-----------|-------------|
+| **GET** | `/players` | Get all players |
+| **GET** | `/player/:id` | Get player details by ID |
+| **GET** | `/player/team/:team` | Get all players from a specific team |
+| **GET** | `/player/name/:name` | Search player by name |
+| **POST** | `/players` | Add a new player |
+| **PUT** | `/player/:id` | Update an existing player |
+| **DELETE** | `/player/:id` | Delete a player |
+
+---
+
+### ⚡ Performance & Category Routes
+| Method | Endpoint | Description |
+|--------|-----------|-------------|
+| **GET** | `/players/batsmen` | Get all batsmen |
+| **GET** | `/players/bowlers` | Get all bowlers |
+| **GET** | `/players/allrounders` | Get all all-rounders |
+| **GET** | `/players/top-scorers` | Get top run scorers |
+| **GET** | `/players/top-wickets` | Get top wicket takers |
+| **GET** | `/players/high-scorers` | Get players with highest individual scores |
+| **GET** | `/players/high-wickets` | Get players with highest wicket counts |
+| **GET** | `/players/summary` | Get summary statistics for all players |
+
+
 🧩 Example Request
 
 Add a New Player
